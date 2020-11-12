@@ -1,0 +1,25 @@
+{
+  "name": "iqboljonr_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for someone who is spammer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "livegram",
+    "like"
+  ],
+  "author": "IqboljonR",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
